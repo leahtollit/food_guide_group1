@@ -62,3 +62,16 @@
 .page-footer .social-media li {
     padding: 0 1rem;
 }
+
+.big-header {
+    background-color: #333;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-header__content {
+    text-align: center;
+    color: white;
+}
