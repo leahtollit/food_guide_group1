@@ -44,48 +44,6 @@
     }
 }
 
-.logo-links ul {
-    display: flex;
-    flex-wrap: wrap;
-    border-top: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.logo-links li {
-    flex: 1 1 50%;
-    display: flex;
-    border-bottom: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-}
-
-.logo-links a {
-    padding: 15px 10px;
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    flex: 1 1 auto;
-    transition: all 0.2s ease;
-    color: orangered;
-}
-
-.logo-links a:hover {
-    background: orangered;
-    color: white;
-}
-
-@media screen and (min-width: 760px) {
-    .logo-links ul {
-        flex-wrap: nowrap;
-    }
-    .logo-links li {
-        flex: 1 1 25%
-    }
-}
-
 .page-footer {
     background: #ddd;
     min-height: 20vh;
