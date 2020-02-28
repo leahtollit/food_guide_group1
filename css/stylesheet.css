@@ -65,7 +65,7 @@
     padding: 15px 10px;
     display: flex;
     text-decoration: none;
-    align-items: center;
+    align-items: right;
     justify-content: center;
     flex: 1 1 auto;
     transition: all 0.2s ease;
