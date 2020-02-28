@@ -1,120 +1,215 @@
-@media screen and (min-width: 700px) {
-    .logo-links {
-        display: flex;
-        margin-top: 3rem;
-    }
-}
-
-.logo__text {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
-}
-
-.logo__links {
-    margin: 0 0 1rem 0;
-    padding: 0 0 0 1rem;
-    margin-left: auto;
-    display: flex;
-    list-style-type: none;
-}
-
-.logo__links li {
-    padding: 0.5rem 0.5rem 0.5rem 0;
-    text-transform: uppercase;
-}
-
-@media screen and (min-width: 700px) {
-    .logo__links {
-        margin: 1rem 2rem 1rem auto;
-    }
-}
-
-.logo__links li+li {
-    padding-left: 0.5rem;
-    border-left: 1px solid #eee;
-}
-
-@media screen and (min-width: 700px) {
-    .logo__links li {
-        padding: 0.5rem 2rem;
-    }
-    .logo__links li+li {
-        border-left: none;
-    }
-}
-
-.logo__links a {
-    padding: 15px 10px;
-    display: flex;
-    text-decoration: none;
-    align-items: right;
-    justify-content: center;
-    flex: 1 1 auto;
-    transition: all 0.2s ease;
-    font-family: 'Playfair Display', Arial, serif;
-    letter-spacing: 2px;
-    color: orangered;
-    text-align: center;
-}
-
-.logo__links a:hover {
-    background: orangered;
-    color: #FDFCF8;
-}
-
-.page-footer {
-    background: #ddd;
-    min-height: 20vh;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.page-footer .social-media {
-    display: flex;
-    list-style-type: none;
-}
-
-.page-footer .social-media li {
-    padding: 0 1rem;
-}
-
-.big-header__content {
-    max-width: 700px;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    font-size: 3rem;
-}
-
-.big-header {
-    background-color: rgba(228, 222, 222, 0.774);
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-position: center 75%;
-}
-
-.big-header h1,
-.big-header h2 {
-    font-size: 4rem;
-    line-height: 1.2;
-    margin: 0;
-    padding: 0;
-}
-
-.content-column {
-    padding: 40px;
-}
-
-.content-column__content {
-    max-width: 700px;
-    margin: 0 auto;
-}
+                                @media screen and (min-width: 700px) {
+                                .logo-links {
+                                    display: flex;
+                                    margin-top: 3rem;
+                                }
+                            }
+                            
+                            .logo__text {
+                                text-transform: uppercase;
+                                font-weight: bold;
+                                padding: 0.5rem 1rem;
+                            }
+                            
+                            .logo__links {
+                                margin: 0 0 1rem 0;
+                                padding: 0 0 0 1rem;
+                                margin-left: auto;
+                                display: flex;
+                                list-style-type: none;
+                            }
+                            
+                            .logo__links li {
+                                padding: 0.5rem 0.5rem 0.5rem 0;
+                                text-transform: uppercase;
+                            }
+                            
+                            @media screen and (min-width: 700px) {
+                                .logo__links {
+                                    margin: 1rem 2rem 1rem auto;
+                                }
+                            }
+                            
+                            .logo__links li+li {
+                                padding-left: 0.5rem;
+                                border-left: 1px solid #eee;
+                            }
+                            
+                            @media screen and (min-width: 700px) {
+                                .logo__links li {
+                                    padding: 0.5rem 2rem;
+                                }
+                                .logo__links li+li {
+                                    border-left: none;
+                                }
+                            }
+                            
+                            .logo__links a {
+                                padding: 15px 10px;
+                                display: flex;
+                                text-decoration: none;
+                                align-items: right;
+                                justify-content: center;
+                                flex: 1 1 auto;
+                                transition: all 0.2s ease;
+                                font-family: 'Playfair Display', Arial, serif;
+                                letter-spacing: 2px;
+                                color: orangered;
+                                text-align: center;
+                            }
+                            
+                            .logo__links a:hover {
+                                background: orangered;
+                                color: #FDFCF8;
+                            }
+                            
+                            @media screen and (min-width: 760px) {
+                                .page-nav {
+                                    position: fixed;
+                                    width: 100%;
+                                    z-index: 2;
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+                                }
+                                .page-nav ul {
+                                    flex-wrap: nowrap;
+                                }
+                                .page-nav li {
+                                    flex: 1 1 25%;
+                                }
+                                .page-footer {
+                                    background: #ddd;
+                                    min-height: 20vh;
+                                    padding: 20px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                                .page-footer .social-media {
+                                    display: flex;
+                                    list-style-type: none;
+                                }
+                                .page-footer .social-media li {
+                                    padding: 0 1rem;
+                                }
+                                .big-header__content {
+                                    max-width: 700px;
+                                    color: black;
+                                    text-align: center;
+                                    padding: 10px;
+                                    font-size: 3rem;
+                                }
+                                .big-header {
+                                    background-color: rgba(228, 222, 222, 0.774);
+                                    display: flex;
+                                    height: 90vh;
+                                    align-items: center;
+                                    justify-content: center;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    background-blend-mode: multiply;
+                                    background-position: center 75%;
+                                }
+                                .big-header h1,
+                                .big-header h2 {
+                                    font-size: 4rem;
+                                    line-height: 1.2;
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                .content-column {
+                                    padding: 40px;
+                                }
+                                .content-column__content {
+                                    max-width: 700px;
+                                    margin: 0 auto;
+                                }
+                                .full-click-cards {
+                                    padding: 10px;
+                                }
+                                .card-container {
+                                    max-width: 1280px;
+                                    margin: 0 auto;
+                                }
+                                @media screen and (min-width: 700px) {
+                                    .card-container {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                    }
+                                }
+                                .fc-card {
+                                    flex: 0 0 32%;
+                                    background: #eee;
+                                    margin-right: 1%;
+                                    margin-bottom: 1rem;
+                                }
+                                .fc-card * {
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                .fc-card a {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: center;
+                                    position: relative;
+                                    padding: 10px 30px;
+                                    width: 100%;
+                                    min-height: 30vh;
+                                    overflow: hidden;
+                                    color: #333;
+                                    text-decoration: none;
+                                    /* cuts off extra content */
+                                    transition: transform 0.2s ease;
+                                }
+                                .fc-card a:hover {
+                                    transform: scale(1.1);
+                                }
+                                .fc-card.style-1 {
+                                    background-color: #eee;
+                                    /* or background images, etc etc */
+                                }
+                                .fc-card.style-2 {
+                                    background-color: #ddd;
+                                    /* or background images, etc etc */
+                                }
+                                .fc-card.style-3 {
+                                    background-color: #ccc;
+                                    /* or background images, etc etc */
+                                }
+                                .text-image__container {
+                                    max-width: 1280px;
+                                    margin: 3rem auto;
+                                    padding: 1rem;
+                                }
+                                @media screen and (min-width:700px) {
+                                    .text-image__container {
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                }
+                                @media screen and (min-width:700px) {
+                                    .text-image__text {
+                                        flex: 1;
+                                    }
+                                    .left .text-image__text {
+                                        order: 1;
+                                    }
+                                    .text-image__text,
+                                    .left .text-image__text {
+                                        padding: 0 2rem;
+                                    }
+                                }
+                                .text-image__content {
+                                    flex: 1;
+                                }
+                                .text-image__content a {
+                                    display: inline-block;
+                                    padding: 10px 30px;
+                                    border-radius: 0.3rem;
+                                    background: red;
+                                    margin-top: 1rem;
+                                    color: white;
+                                    text-decoration: none;
+                                    font-weight: bold;
+                                }
