@@ -1,3 +1,5 @@
+/* THIS IS THE NAVIGATION BAR CSS */
+
 @media screen and (min-width: 700px) {
     .logo-links {
         display: flex;
@@ -44,6 +46,12 @@
     }
 }
 
+
+/* NAVIGATION BAR CSS STOPS HERE */
+
+
+/* THE CSS FOR THE PAGE FOOTER STARTS HERE */
+
 .page-footer {
     background: #ddd;
     min-height: 20vh;
@@ -62,6 +70,12 @@
 .page-footer .social-media li {
     padding: 0 1rem;
 }
+
+
+/* THE CSS FOR THE FOOTER STOPS HERE*/
+
+
+/* THE CSS FOR THE HEADER STARTS HERE (WITH BACKGROUND IMAGE)*/
 
 .big-header {
     background-color: #333;
@@ -91,3 +105,6 @@
     text-align: center;
     color: white;
 }
+
+
+/* THE CSS FOR THE HEADER ENDS HERE*/
