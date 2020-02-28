@@ -44,7 +44,7 @@
     }
 }
 
-.page-nav ul {
+.logo-links ul {
     display: flex;
     flex-wrap: wrap;
     border-top: 1px solid #ddd;
@@ -54,14 +54,14 @@
     padding: 0;
 }
 
-.page-nav li {
+.logo-links li {
     flex: 1 1 50%;
     display: flex;
     border-bottom: 1px solid #ddd;
     border-left: 1px solid #ddd;
 }
 
-.page-nav a {
+.logo-links a {
     padding: 15px 10px;
     display: flex;
     text-decoration: none;
@@ -72,16 +72,16 @@
     color: black;
 }
 
-.page-nav a:hover {
+.logo-links a:hover {
     background: black;
     color: white;
 }
 
 @media screen and (min-width: 760px) {
-    .page-nav ul {
+    .logo-links ul {
         flex-wrap: nowrap;
     }
-    .page-nav li {
+    .logo-links li {
         flex: 1 1 25%
     }
 }
