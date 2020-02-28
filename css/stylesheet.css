@@ -61,14 +61,6 @@
     }
 }
 
-.logo-links li {
-    flex: 1 1 50%;
-    display: flex;
-    border-bottom: 1px solid orangered;
-    border-left: 1px solid orangered;
-    background-color: #FFF;
-}
-
 .logo__links a {
     padding: 15px 10px;
     display: flex;
@@ -81,6 +73,11 @@
     letter-spacing: 2px;
     color: orangered;
     text-align: center;
+}
+
+.logo__links a:hover {
+    background: orangered;
+    color: #FDFCF8;
 }
 
 .page-footer {
