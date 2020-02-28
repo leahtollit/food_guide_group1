@@ -71,6 +71,16 @@
     justify-content: center;
 }
 
+.page-footer {
+    background: #025D66;
+    color: #FFF;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
 .page-footer p {
     font-size: 0.9em;
 }
