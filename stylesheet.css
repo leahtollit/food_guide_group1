@@ -71,6 +71,22 @@
     justify-content: center;
 }
 
+.page-footer p {
+    font-size: 0.9em;
+}
+
+.page-footer a:link {
+    color: #F9F5F7;
+}
+
+.page-footer a:visited {
+    color: #FFF5F5;
+}
+
+.page-footer a:hover {
+    color: #FEF9C7;
+}
+
 .big-header__content {
     text-align: center;
     color: white;
