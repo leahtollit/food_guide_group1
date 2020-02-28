@@ -117,3 +117,12 @@
     text-align: center;
     color: white;
 }
+
+.content-column {
+    padding: 40px;
+}
+
+.content-column__content {
+    max-width: 700px;
+    margin: 0 auto;
+}
