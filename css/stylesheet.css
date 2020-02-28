@@ -61,6 +61,28 @@
     }
 }
 
+.logo-links li {
+    flex: 1 1 50%;
+    display: flex;
+    border-bottom: 1px solid orangered;
+    border-left: 1px solid orangered;
+    background-color: #FFF;
+}
+
+.logo__links a {
+    padding: 15px 10px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    transition: all 0.2s ease;
+    font-family: 'Playfair Display', Arial, serif;
+    letter-spacing: 2px;
+    color: orangered;
+    text-align: center;
+}
+
 .page-footer {
     background: #ddd;
     min-height: 20vh;
