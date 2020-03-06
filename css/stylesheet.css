@@ -1,4 +1,4 @@
-@media screen and (min-width: 700px) {
+        @media screen and (min-width: 700px) {
     .logo-links {
         display: flex;
         margin-top: 0.5rem;
@@ -67,7 +67,6 @@
     .page-nav li {
         flex: 1 1 25%;
     }
-   
     .big-header__content {
         max-width: 700px;
         color: #0a1172;
@@ -86,7 +85,6 @@
         background-blend-mode: multiply;
         background-position: center 50%;
     }
-    
     .big-header__content {
         display: flex;
         height: 90vh;
@@ -99,8 +97,8 @@
         background-blend-mode: multiply;
         /*fixes the background image*/
         background-attachment: fixed;
-        position: relative; } 
-        
+        position: relative;
+    }
     .big-header h1,
     .big-header h2 {
         font-size: 4rem;
@@ -310,7 +308,6 @@
             grid-column: 5/7;
             padding-top: 0;
         }
-
         .page-footer {
             background: #ffa44a;
             min-height: 20vh;
@@ -327,4 +324,3 @@
         .page-footer .social-media li {
             padding: 0 1rem;
         }
-    
