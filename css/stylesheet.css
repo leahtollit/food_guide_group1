@@ -91,12 +91,12 @@
     
     .topnav a:hover {
         background-color: #ddd;
-        color: black;
+        color: #ff9900;
     }
     
     .active {
-        background-color: #ff9900;
-        color: white;
+        background-color: white;
+        color: black;
     }
     
     @media (max-width: 760px) {
