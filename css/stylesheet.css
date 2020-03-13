@@ -99,7 +99,7 @@
         color: white;
     }
     
-    @media (max-width: 1024px) {
+    @media (max-width: 760px) {
         .mobile-container {
             display: block;
         }
@@ -404,6 +404,9 @@
             grid-column: 5/7;
             padding-top: 0;
         }
+    }
+    
+    @media screen and (max-width: 700px) {
         .page-footer {
             background: #ffa44a;
             min-height: 20vh;
@@ -417,4 +420,19 @@
             display: flex;
             list-style-type: none;
         }
+    }
+    
+    .page-footer {
+        background: #ffa44a;
+        min-height: 20vh;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .page-footer .social-media {
+        display: flex;
+        list-style-type: none;
     }
