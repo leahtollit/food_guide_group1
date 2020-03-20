@@ -108,10 +108,11 @@
         }
     }
     
-    @media (min-width: 1025px) {
+    @media (min-width: 761px) {
         .topnav {
             display: none;
         }
+        
     }
     
     @media screen and (min-width: 760px) {
@@ -364,7 +365,7 @@
         .grid-layout {
             display: grid;
             max-width: 1000px;
-            margin: 0.5;
+            margin: auto;
             /* create a gap between grid columns and rows */
             grid-gap: 1rem;
             /* 7 column grid */
@@ -413,6 +414,9 @@
         }
     }
     
+
+
+
     @media screen and (min-width: 800px) {
         .page-footer {
             background: #ffa44a;
