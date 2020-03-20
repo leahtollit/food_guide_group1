@@ -357,10 +357,10 @@
     @media screen and (min-width: 700px) {
         .grid-layout {
             display: grid;
-            max-width: 1280px;
-            margin: 0 auto;
+            max-width: 1000px;
+            margin: 0.5;
             /* create a gap between grid columns and rows */
-            grid-gap: 2rem;
+            grid-gap: 1rem;
             /* 7 column grid */
             grid-template-columns: repeat(7, 1fr);
             /* you can set grid-template-rows but a lot of the time the content does a good enough job */
