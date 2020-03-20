@@ -358,7 +358,7 @@
         .grid-layout {
             display: grid;
             max-width: 1000px;
-            margin: 0.5;
+            margin: 0.5 auto;
             /* create a gap between grid columns and rows */
             grid-gap: 1rem;
             /* 7 column grid */
@@ -397,8 +397,8 @@
             padding-top: 0;
         }
         .grid-layout .address h3 {
-            margin: 0;
-            padding: 0;
+            margin: 1;
+            padding: 1;
         }
         .grid-layout .ratings-and-more {
             grid-row: 4;
@@ -407,6 +407,9 @@
         }
     }
     
+
+
+
     @media screen and (min-width: 800px) {
         .page-footer {
             background: #ffa44a;
