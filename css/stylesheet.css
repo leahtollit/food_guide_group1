@@ -166,6 +166,12 @@
         position: relative;
     }
     
+    .video {
+        background-size: cover;
+        height: 90vh;
+        min-height: 40vh;
+    }
+    
     .big-header h1,
     .big-header h2 {
         font-size: 4rem;
