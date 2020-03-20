@@ -137,15 +137,53 @@
         text-align: center;
         padding: 10px;
         font-size: 3rem;
+        
     }
+   /* element styling (e.g. standard p, h1, h2, a, etc) */
+
+h1,
+h2 {
+    font-family: 'Playfair Display', Arial, serif;
+    letter-spacing: 2px;
+}
+
+.header-content p {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+h3  { font-size: 1.5rem;
+    font-family: 'Playfair Display', Arial, serif;
+}
+
+p {
+    font-size: 1rem;
+    padding-bottom: 15px;
+    font-family: 'Playfair Display', Arial, serif;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+ol {
+    font-size: 1 rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Playfair Display', Arial, serif;
+     }
+
     
     .big-header {
-        background-color: rgba(228, 222, 222, 0.774);
+    background-color: grey;
         display: flex;
         height: 90vh;
         align-items: center;
         justify-content: center;
-        background-image: url(../Images/img_1.jpg), radial-gradient(#666, #fff);
         background-size: cover;
         background-blend-mode: multiply;
         background-position: center 50%;
@@ -164,6 +202,7 @@
         /*fixes the background image*/
         background-attachment: fixed;
         position: relative;
+        margin-right: 1%;
     }
     
     .video {
