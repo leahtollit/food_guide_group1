@@ -473,14 +473,30 @@
     }
     
     .page-footer {
-        background: #ffa44a;
-        min-height: 20vh;
-        padding: 20px;
+        background: #ff9900;
+        color: #FFF;
         display: flex;
-        flex-direction: column;
+        height: 20vh;
         align-items: center;
         justify-content: center;
+        padding: 20px;
     }
+    
+    .page-footer p {
+        font-size: 0.9em;
+    }
+    
+    .page-footer a:link {
+        color: #F9F5F7;
+    }
+    
+    .page-footer a:visited {
+        color: #FFF5F5;
+    }
+    .page-footer a:hover {
+          color: #0a1172;
+    }
+    
     
     .page-footer .social-media {
         display: flex;
@@ -490,3 +506,16 @@
     .page-footer .social-media li {
         padding: 0 1rem;
     }
+  
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+      .mmu-disclaimer {
+        align-items: center;
+        justify-content: center;
+      }
