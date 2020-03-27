@@ -510,7 +510,7 @@ ol {
         background: #ff9900;
         color: #FFF;
         display: flex;
-        height: 20vh;
+        height: 10vh;
         align-items: center;
         justify-content: center;
         padding: 20px;
@@ -518,6 +518,7 @@ ol {
     
     .page-footer p {
         font-size: 0.9em;
+        padding-top: 20px;
     }
     
     .page-footer a:link {
@@ -552,6 +553,11 @@ ol {
       .mmu-disclaimer {
         align-items: center;
         justify-content: center;
+        font-size: 12px;
+      }
+
+      .footer-content {
+          font-size: 12px;
       }
 
     
