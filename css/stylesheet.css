@@ -171,7 +171,7 @@ p {
 
 }
 ol {
-    font-size: 1 rem;
+    font-size: 1rem;
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Playfair Display', Arial, serif;
@@ -204,13 +204,8 @@ ol {
         position: relative;
         margin-right: 1%;
     }
-    
-    .video {
-        background-size: cover;
-        height: 90vh;
-        min-height: 40vh;
-    }
-    
+
+
     .big-header h1,
     .big-header h2 {
         font-size: 4rem;
@@ -558,3 +553,5 @@ ol {
         align-items: center;
         justify-content: center;
       }
+
+    
