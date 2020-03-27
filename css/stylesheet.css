@@ -189,7 +189,13 @@ ol {
         background-position: center 50%;
     }
     
-    .big-header__content {
+    
+    
+    .big-header__content_index h1 {
+        font-size: 30px;
+        align-items: center;
+    } 
+    #video-background {
         display: flex;
         height: 90vh;
         min-height: 40vh;
@@ -202,10 +208,8 @@ ol {
         /*fixes the background image*/
         background-attachment: fixed;
         position: relative;
-        margin-right: 1%;
     }
-
-
+    
     .big-header h1,
     .big-header h2 {
         font-size: 4rem;
