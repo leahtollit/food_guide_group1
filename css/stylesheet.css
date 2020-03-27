@@ -188,13 +188,26 @@ ol {
         background-blend-mode: multiply;
         background-position: center 50%;
     }
-    
-    
-    
-    .big-header__content_index h1 {
-        font-size: 30px;
+
+    .big-header-index {
+        display: flex;
+        height: 90vh;
+        min-height: 40vh;
+        width: 100%;
         align-items: center;
-    } 
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: multiply;
+        /*fixes the background image*/
+        background-attachment: fixed;
+        position: relative; }
+
+
+
+
+
     #video-background {
         display: flex;
         height: 90vh;
@@ -208,6 +221,7 @@ ol {
         /*fixes the background image*/
         background-attachment: fixed;
         position: relative;
+        min-width: 100%;
     }
     
     .big-header h1,
