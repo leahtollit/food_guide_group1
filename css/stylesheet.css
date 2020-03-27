@@ -543,9 +543,8 @@ ol {
     }
   
     .fa {
-        padding: 20px;
         font-size: 30px;
-        width: 30px;
+        width: 10px;
         text-align: center;
         text-decoration: none;
         border-radius: 50%;
@@ -558,6 +557,8 @@ ol {
 
       .footer-content {
           font-size: 12px;
+          padding-top: 10px;
+          padding-bottom: 10px;
       }
 
     
