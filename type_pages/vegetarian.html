@@ -13,6 +13,8 @@
     <meta name="description" content="Selection of Vegetarian restaurants in Manchester city centre">
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" /><!-- Make sure you put this AFTER Leaflet's CSS --><script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+        
 </head>
 
 <body>
@@ -43,69 +45,56 @@
         <img src="../images/veggie_bowl.jpg" alt="Vegetarian salad bowl">
         <img src="../images/veggie_burger.jpg" alt="Vegetarian fried burger">
         <img src="../images/veggie_pot.jpg" alt="Vegetarian takeaway salad pot with tofu and kale">
+
+
+    <div class="text-content">
+
+        <h3>Wholesome Junk Food!</h3>
+        <p>Located in the south side of the Anrdale food market, Wholefood Junkies offers vegan and vegetarian fast food. Anything from Chickn Burgers, Beefless Burgers and Hotdogs but all 100% vegan!</p>
+        <p>Thier restaurants are spacious with some seating looking over thier open kitchen. A 100-year-old olive trees as part of the decor & fresh live herbs pots on every table. It offers diners a unique concept - with guests enjoying face-to-face
+            interactions with chefs as they cook their dish to order, exactly as the guest likes it. Extra chilli? Sure. No garlic? No problem. Extra Chicken or King Prawns, easy!</p>
+        <p> Guests are given a chip card on arrival, using it to order both drinks and food. Your card registers everything ordered, you simply pay on the way out. One card each meaning everyone pays for what they order, avoiding the hassle of splitting
+            bills which is great for large groups, dates and students!</p>
+
+
+        <h3>Customer satisfaction</h3>
+        <p>"Stumbled across this place whilst walking through the Arndale. Amazing food every time. Polite and friendly staff. You must try the mushroom wings. This place is equally loved by my vegan, veggie and meat eating friends"</p>
     
-        <div class="text-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae odio vel enim vestibulum egestas. Donec neque tortor, efficitur in ipsum ut, gravida tempor orci. Nullam neque erat, varius nec augue varius, faucibus interdum est.
-                Proin vitae lorem non ipsum aliquam sodales ut ac sapien. Nulla non mattis lectus, at feugiat arcu.</p>
 
-            <h3>Josef Muller-Brockmann</h3>
+        <h3>Something else</h3>
+        <p>Fusce elementum euismod neque, et fringilla ligula faucibus vitae. Praesent sed tincidunt tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Sed in felis sit amet
+            justo posuere fringilla. Pellentesque fringilla tincidunt iaculis.</p>
+    </div>
 
-            <p>Suspendisse ultricies dui nunc, at laoreet dolor facilisis vitae. Donec condimentum dolor fringilla, venenatis magna id, viverra diam. Vivamus lacinia faucibus ligula in maximus. Morbi convallis ipsum libero, non tincidunt lacus feugiat ac.</p>
+    <div class="address">
+        <h3>Address</h3>
+        <p>49 High St<br />Manchester M4 3AH</p>
+        <h4>Price Range</h4>
+        <p>£4-£15</p>
+    </div>
+    <div class="ratings-and-more">
+        <ul>
+            <li>
+                <h4>Food</h4>
+                <p>8/10</p>
+            </li>
+            <li>
+                <h4>Ambience</h4>
+                <p>7/10</p>
+            </li>
+            <li>
+                <h4>Service</h4>
+                <p>8/10</p>
+            </li>
+        </ul>
+        <h3>Our Advice</h3>
+        <p>Perfect for those cutting meat out of diets or simply want junk food without feeling as guilty!</p>
 
-            <h3>Ulm School of Art and Design</h3>
-            <p>
-                Sed ut tempus sem, at imperdiet lorem. Vivamus ullamcorper efficitur quam, vitae faucibus nisi feugiat sit amet. Ut quis lacus ut diam ultricies malesuada. Proin eget mauris interdum, congue purus nec, tempor leo. Donec eu sapien quis elit faucibus pretium.
-                Cras sollicitudin finibus neque, vitae cursus sapien.</p>
+        <div id="map"></div>
+        
+    </div>
 
-            <h3>Khoi Vinh, Rachel Andrew and Jen Simmons</h3>
-            <p>Fusce elementum euismod neque, et fringilla ligula faucibus vitae. Praesent sed tincidunt tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Sed in felis sit amet
-                justo posuere fringilla. Pellentesque fringilla tincidunt iaculis.</p>
-        </div>
-
-        <div class="address">
-
-            <h3>Address</h3>
-            <p> 49 High Street<br />Manchester M4 3AH</p>
-            <h4>Bus routes</h4>
-            <p>142, 184, 216, 41, 81A, X50</p>
-            <div class="content-column__content">
-                <!-- Open street map is free: google maps requires much more setting up -->
-                <h2>Visit Today</h2>
-                <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.241050004959107%2C53.48295274896526%2C-2.2375094890594487%2C53.48441154144139&amp;layer=mapnik&amp;marker=53.48368215147388%2C-2.2392797470092773"
-                    style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=53.48368&amp;mlon=-2.23928#map=19/53.48368/-2.23928">View Larger Map</a></small>
-            </div>
-        </div>
-        <div class="ratings-and-more">
-            <ul>
-                <li>
-                    <h4>Food</h4>
-                    <p>3/10</p>
-                </li>
-                <li>
-                    <h4>Ambience</h4>
-                    <p>2/10</p>
-                </li>
-                <li>
-                    <h4>Service</h4>
-                    <p>3/10</p>
-                </li>
-            </ul>
-            <h3>Advice</h3>
-            <ul>
-                <li>"Stumbled across this place whilst walking through the Arndale. Amazing food every time. Polite and friendly staff. You must try the mushroom wings. This place is equally loved by my vegan, veggie and meat eating friends"</li>
-
-                <li>"We both opted for the ‘chickn’ sandwich and a portion of the katsu tots. We were both very impressed. The ‘chicken’ is made from oyster mushrooms rather than a fake meat substitute, breaded and deep fried to perfection, served in a bun
-                    with a huge helping of gherkins, hot sauce and a creamy dill dressing. Everything was absolutely packed with flavour and tasted fresh. Huge fans of this place, without a doubt the best vegan food I’ve had in Manchester and all at very
-                    reasonable prices!"
-                </li>
-
-                <li>
-                    "This place is amazing! The women behind the counter are really nice! The only con is the seating may be difficult to find so come early when they open at 11am and it was difficult to find. It’s in the arndale market but the clothing part. The Katsu Corn
-                    dog was really good and totally recommend it. The Jerk Tots are the way to go as well!"</li>
-            </ul>
-        </div>
-
-    </section>
+</section>
 
     <footer class="page-footer">
 
@@ -146,6 +135,21 @@
             }
         }
     </script>
+    <script type="text/javascript">
+        var map = L.map('map').setView([53.483763, -2.239355], 16);
+    
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+    
+        L.marker([53.483763, -2.239355]).addTo(map)
+            .bindPopup('Wholesome Junkies');
+        // if you want this marker to be visible, remove the semicolon and add .openPopup(); to the end of this line
+            
+    
+       
+        </script>
+        
 
 </body>
 
