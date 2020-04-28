@@ -138,7 +138,7 @@
         padding: 10px;
         font-size: 3rem;
         
-    }
+    }  
    /* element styling (e.g. standard p, h1, h2, a, etc) */
 
 h1,
@@ -183,54 +183,15 @@ ol {
         display: flex;
         height: 90vh;
         align-items: center;
-        justify-content: center;
-        background-size: cover;
-        background-blend-mode: multiply;
-        background-position: center 50%;
-    }
-
-    .big-header-index {
-        display: flex;
-        height: 90vh;
-        min-height: 40vh;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: multiply;
-        /*fixes the background image*/
-        background-attachment: fixed;
-        position: relative; }
-
-
-
-
-
-    #video-background {
-        display: flex;
-        height: 90vh;
-        min-height: 40vh;
-        align-items: center;
-        justify-content: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: multiply;
-        /*fixes the background image*/
-        background-attachment: fixed;
-        position: relative;
-        min-width: 100%;
-    }
-    
-    .big-header h1,
-    .big-header h2 {
+        justify-content: center;} 
+        
+  
+    .big-header h1 h2 {
         font-size: 4rem;
         line-height: 1.2;
         margin: 0;
-        padding: 0;
-    }
+        padding: 0; } 
+    
     
     .content-column {
         padding: 40px;
@@ -359,13 +320,6 @@ ol {
     
     .grid-layout {
         padding: 40px;
-        
-    
-    .grid-layout h2 {
-        font-size: 2rem;
-        line-height: 1;
-        margin: 0;
-        padding: 0 0 2rem 0;
     }
     
     .grid-layout h3 {
