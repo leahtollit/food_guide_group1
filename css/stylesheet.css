@@ -319,8 +319,7 @@ ol {
     /* let's not have a grid at small screen sizes: just take care of the typography and white space */
     
     .grid-layout {
-        padding: 40px;
-    }
+        padding: 40px; } 
     
     .grid-layout h3 {
         margin: 0;
