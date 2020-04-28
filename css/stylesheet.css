@@ -485,6 +485,7 @@ ol {
         border: 10px solid #eee;
     }
     
+
     
     .page-footer {
         background: #ff9900;
@@ -542,4 +543,23 @@ ol {
       }
 
 
+      .text-video__container {
+        max-width: 1280px;
+        margin: 3rem auto;
+        padding: 1rem;
+    }
     
+    @media screen and (min-width:700px) {
+        .text-video__container {
+            display: flex;
+            align-items: center;
+        }
+    }
+    
+    .left .text-video__text {
+        order: 1;
+    }
+    
+    .text-video__text {
+        flex: 1;
+    }
