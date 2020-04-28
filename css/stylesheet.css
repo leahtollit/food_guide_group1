@@ -359,8 +359,7 @@ ol {
     
     .grid-layout {
         padding: 40px;
-        img {max-width: 100%; height: auto;}
-    }
+        
     
     .grid-layout h2 {
         font-size: 2rem;
@@ -382,6 +381,9 @@ ol {
     .grid-layout img {
         display: block;
         margin-bottom: 1rem;
+        max-width: 100%; 
+        height: auto;
+
     }
     
     .ratings-and-more,
