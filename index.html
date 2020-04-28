@@ -13,6 +13,8 @@
     <meta name="description" content="A food guide to restaurants in Manchesters city centre">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" /><!-- Make sure you put this AFTER Leaflet's CSS --><script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+        
     
 </head>
 
@@ -49,29 +51,45 @@
 
     </div>
 
-    <section class="text-image right">
-        <div class="text-image__container">
-            <div class="text-image__text">
-                <img src="https://via.placeholder.com/600x500" alt="ADD ALT TEXT">
-            </div>
-   
     <section class="text-image left">
         <div class="text-image__container">
             <div class="text-image__text">
-                <img alt="" src="https://via.placeholder.com/600x500">
-
+                <img src="https://via.placeholder.com/600x500">
             </div>
             <div class="text-image__content">
                 <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at augue eu erat vulputate dapibus at id nulla. Ut ultricies nisl et commodo lobortis. Nullam aliquet nulla venenatis dictum luctus. Praesent at ante rhoncus, sagittis
-                    ante non, rhoncus tortor. Quisque eu imperdiet mi. Ut ultrices odio vel nunc porta, a sollicitudin libero tincidunt. Phasellus id lorem et sapien tincidunt placerat. Ut tempor nulla ac nulla mattis pharetra.</p>
-                <a href="index.html">A link</a>
+    
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at augue eu erat vulputate dapibus at id nulla. Ut ultricies nisl et commodo lobortis. Nullam aliquet nulla venenatis dictum luctus. Praesent at ante rhoncus, sagittis ante
+                    non, rhoncus tortor. Quisque eu imperdiet mi. Ut ultrices odio vel nunc porta, a sollicitudin libero tincidunt. Phasellus id lorem et sapien tincidunt placerat. Ut tempor nulla ac nulla mattis pharetra.</p>
+                <a href="#">A link</a>
             </div>
         </div>
-
+    
     </section>
-   
+
+    <section class="text-image right">
+        <div class="text-image__container">
+            <div class="text-image__text">
+                <img src="https://via.placeholder.com/600x500">
+            </div>
+            <div class="text-image__content">
+                <h2>Heading</h2>
+    
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at augue eu erat vulputate dapibus at id nulla. Ut ultricies nisl et commodo lobortis. Nullam aliquet nulla venenatis dictum luctus. Praesent at ante rhoncus, sagittis ante
+                    non, rhoncus tortor. Quisque eu imperdiet mi. Ut ultrices odio vel nunc porta, a sollicitudin libero tincidunt. Phasellus id lorem et sapien tincidunt placerat. Ut tempor nulla ac nulla mattis pharetra.</p>
+                <a href="#">A link</a>
+            </div>
+        </div>
+    
+    </section>
+           
+    <div id="map"></div>
+    
+        
+
+
+
+
     <footer class="page-footer">
 
         <div class="footer-content">
@@ -112,6 +130,18 @@
             }
         }
     </script>
+    <script type="text/javascript">
+        var map = L.map('map').setView([53.467658, -2.240798], 16);
+    
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+    
+        L.marker([53.467658, -2.240798]).addTo(map)
+            .bindPopup('MMU');
+      
+        </script>
+        
 
 </body>
 
