@@ -50,8 +50,9 @@
         transition: all 0.2s ease;
         font-family: 'Playfair Display', Arial, serif;
         letter-spacing: 2px;
-        color: ff9900;
+        color: #0a1172;
         text-align: center;
+    
     }
     
     .logo__links a:hover {
@@ -98,7 +99,7 @@
     
     .topnav a:hover {
         background-color: #ddd;
-        color: #0a1172
+        color: #ff9900
     }
     
     .active {
@@ -523,7 +524,7 @@ ol {
     
     
     .page-footer {
-        background: 
+        background: #ff9900; 
         color: #FFF;
         display: flex;
         height: 10vh;
