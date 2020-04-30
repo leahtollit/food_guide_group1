@@ -164,6 +164,9 @@ h2 {
 h3  { font-size: 1.5rem;
     font-family: 'Playfair Display', Arial, serif;
 }
+h4  { font-size: 1rem;
+    font-family: 'Playfair Display', Arial, serif;
+}
 
 p {
     font-size: 1rem;
@@ -182,6 +185,13 @@ ol {
     font-family: 'Playfair Display', Arial, serif;
      }
 
+     ul {
+        font-size: 1rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: 'Playfair Display', Arial, serif;
+         }
+    
     
     .big-header {
     background-color: grey;
@@ -275,7 +285,7 @@ ol {
         max-width: 1280px;
         margin: 3rem auto;
         padding: 1rem;
-        align-items: ;
+
     }
     
     @media screen and (min-width:700px) {
@@ -427,7 +437,6 @@ ol {
             padding-top: 0;
         }
     }
-    
 
 
 
@@ -488,10 +497,15 @@ ol {
 
     #map {
         height: 60vh;
+        width: 60vh;
         border: 10px solid #eee;
     }
     
-
+    #map-footer {
+        height: 40vh;
+        border: 10px solid #eee;
+    }
+    
     
     .page-footer {
         background: #ff9900;
