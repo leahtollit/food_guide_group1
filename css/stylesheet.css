@@ -548,3 +548,32 @@ ol {
           padding-bottom: 10px;
       }
 
+
+      /* the CSS for the responsive map is the same as the CSS for the other patterns */
+
+.content-column {
+    padding: 40px;
+}
+
+.content-column__content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.content-column table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content-column td {
+    border-top: 1px solid #ddd;
+}
+
+.content-column th {
+    text-align: left;
+}
+
+.content-column th,
+td {
+    padding: 0.6rem 0.3rem;
+}
