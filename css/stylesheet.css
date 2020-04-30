@@ -55,8 +55,8 @@
     }
     
     .logo__links a:hover {
-        background: #0a1172;
-        color: #ff9900;
+        background: #ff9900;
+        color: #0a1172;
     }
     
     .mobile-container {
@@ -70,7 +70,7 @@
     
     .topnav {
         overflow: hidden;
-        background-color: #0a1172;
+        background-color: #ff9900;
         position: relative; }
     
     .topnav img {
@@ -140,7 +140,7 @@
     
     .big-header__content {
         max-width: 700px;
-        color: #0a1172;
+        color: #ff9900;
         text-align: center;
         padding: 10px;
         font-size: 3rem;
@@ -318,9 +318,9 @@ ol {
         display: inline-block;
         padding: 10px 30px;
         border-radius: 0.3rem;
-        background: #0a1172;
+        background: #ff9900;
         margin-top: 1rem;
-        color: white;
+        color: #0a1172;
         text-decoration: none;
         font-weight: bold;
     }
@@ -330,9 +330,9 @@ ol {
         display: inline-block;
         padding: 10px 30px;
         border-radius: 0.3rem;
-        background: #ff9900;
+        background: #0a1172;
         margin-top: 1rem;
-        color:#0a1172;
+        color:white;
         text-decoration: none;
         font-weight: bold;
     }
@@ -523,7 +523,7 @@ ol {
     
     
     .page-footer {
-        background: #0a1172;
+        background: 
         color: #FFF;
         display: flex;
         height: 10vh;
@@ -545,7 +545,7 @@ ol {
         color: #FFF5F5;
     }
     .page-footer a:hover {
-          color: #ff9900;
+          color:  #0a1172;
     }
     
     
