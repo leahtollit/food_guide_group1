@@ -50,13 +50,13 @@
         transition: all 0.2s ease;
         font-family: 'Playfair Display', Arial, serif;
         letter-spacing: 2px;
-        color: #ff9900;
+        color: ff9900;
         text-align: center;
     }
     
     .logo__links a:hover {
-        background: #ff9900;
-        color: #0a1172;
+        background: #0a1172;
+        color: #ff9900;
     }
     
     .mobile-container {
@@ -70,9 +70,11 @@
     
     .topnav {
         overflow: hidden;
-        background-color: #333;
-        position: relative;
-    }
+        background-color: #0a1172;
+        position: relative; }
+    
+    .topnav img {
+        width: 125px; } 
     
     .topnav #myLinks {
         display: none;
@@ -96,7 +98,7 @@
     
     .topnav a:hover {
         background-color: #ddd;
-        color: #ff9900;
+        color: #0a1172
     }
     
     .active {
@@ -138,7 +140,7 @@
     
     .big-header__content {
         max-width: 700px;
-        color: #ff9900;
+        color: #0a1172;
         text-align: center;
         padding: 10px;
         font-size: 3rem;
@@ -316,12 +318,25 @@ ol {
         display: inline-block;
         padding: 10px 30px;
         border-radius: 0.3rem;
-        background: #ff9900;
+        background: #0a1172;
         margin-top: 1rem;
         color: white;
         text-decoration: none;
         font-weight: bold;
     }
+
+
+    .text-image__content a:hover {
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 0.3rem;
+        background: #ff9900;
+        margin-top: 1rem;
+        color:#0a1172;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
     /* the CSS for the responsive map is the same as the CSS for the other patterns */
     
     .content-column {
@@ -508,7 +523,7 @@ ol {
     
     
     .page-footer {
-        background: #ff9900;
+        background: #0a1172;
         color: #FFF;
         display: flex;
         height: 10vh;
@@ -530,7 +545,7 @@ ol {
         color: #FFF5F5;
     }
     .page-footer a:hover {
-          color: #0a1172;
+          color: #ff9900;
     }
     
     
