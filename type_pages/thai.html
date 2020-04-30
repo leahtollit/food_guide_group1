@@ -13,6 +13,8 @@
     <meta name="description" content="Selection of Thai restaurants in Manchester city centre">
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" /><!-- Make sure you put this AFTER Leaflet's CSS --><script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+        
 </head>
 
 <body>
@@ -85,8 +87,7 @@
             </ul>
             <h3>Our Advice</h3>
             <p>Steer clear of this overpriced, pretentious, overrated cafe. Unless you like cheese.</p>
-            <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.2528660298485197%2C53.47902248488274%2C-2.249218225588266%2C53.480692106879125&amp;layer=mapnik&amp;marker=53.4798573040938%2C-2.2510421277183923" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=53.47986&amp;mlon=-2.25104#map=18/53.47986/-2.25104">View Larger Map</a></small>
-        </div>
+            <div id="map"></div>
 
     </section>
 
@@ -129,7 +130,21 @@
             }
         }
     </script>
+<script type="text/javascript">
+    var map = L.map('map').setView([53.467658, -2.240798], 16);
 
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    L.marker([53.467658, -2.240798]).addTo(map)
+        .bindPopup('');
+    // if you want this marker to be visible, remove the semicolon and add .openPopup(); to the end of this line
+        
+
+   
+    </script>
+    
 </body>
 
 
