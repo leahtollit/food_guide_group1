@@ -522,6 +522,43 @@ ol {
         height: 40vh;
         border: 10px solid #eee;
     }
+        /* the CSS for the responsive map is the same as the CSS for the other patterns */
+
+.content-column {
+    padding: 40px;
+}
+
+.content-column__content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.content-column table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content-column td {
+    border-top: 1px solid #ddd;
+}
+
+.content-column th h4 {
+    text-align: left;
+}
+
+.content-column th,
+td {
+    padding: 0.6rem 0.3rem;
+}
+
+.content-column a:hover {
+    color: #ff9900 }
+
+.content-column a:visted {
+    color: #0a1172 }
+    
+
+    
     
     
     .page-footer {
@@ -580,38 +617,4 @@ ol {
       }
 
 
-      /* the CSS for the responsive map is the same as the CSS for the other patterns */
-
-.content-column {
-    padding: 40px;
-}
-
-.content-column__content {
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.content-column table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.content-column td {
-    border-top: 1px solid #ddd;
-}
-
-.content-column th h4 {
-    text-align: left;
-}
-
-.content-column th,
-td {
-    padding: 0.6rem 0.3rem;
-}
-
-.content-column a:hover {
-    color: #ff9900 }
-
-.content-column a:visted {
-    color: #0a1172 }
-    
+  
