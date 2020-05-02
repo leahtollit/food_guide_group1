@@ -295,6 +295,7 @@ ol {
         .text-image__container {
             display: flex;
             align-items: center;
+
         }
     }
     
@@ -599,7 +600,7 @@ ol {
     border-top: 1px solid #ddd;
 }
 
-.content-column th {
+.content-column th h4 {
     text-align: left;
 }
 
@@ -607,3 +608,10 @@ ol {
 td {
     padding: 0.6rem 0.3rem;
 }
+
+.content-column a:hover {
+    color: #ff9900 }
+
+.content-column a:visted {
+    color: #0a1172 }
+    
