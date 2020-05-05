@@ -122,15 +122,8 @@
 <li><a href="ttps://twitter.com/ManMetUni?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a></li>
 <li><a href="https://www.instagram.com/manmetuni/?hl=en" class="fa fa-instagram"></a></li></ul>
             
-
     
-<!--<form action="/action_page.php" method="get">
-    <label for="email">Email</label>
-    <input type="text" id="fname" name="fname"><br><br>
-    <input type="submit" value="Submit">
-  </form>
 
-</form> -->
         
             <!-- this is the minimum disclaimer text. You can modify the classnames and markup as long as the same content is shown to the site visitor -->
             <div class="mmu-disclaimer">
@@ -153,7 +146,8 @@
             }
         }
     </script>
-    <script type="text/javascript">
+    <script src=”myscript.js”>
+
         var map = L.map('map-footer').setView([53.469159, -2.236896], 16);
     
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -163,8 +157,7 @@
         L.marker([53.469159, -2.236896]).addTo(map)
             .bindPopup('Manchester Metropolitan University');
         // if you want this marker to be visible, remove the semicolon and add .openPopup(); to the end of this line
-            
-    
+        
        
         </script>
         
