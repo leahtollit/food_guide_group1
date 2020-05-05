@@ -558,18 +558,15 @@ td {
     color: #0a1172 }
     
 
-    
-    
-    
     .page-footer {
-        background: #ff9900; 
-        color: #FFF;
-        display: flex;
-        height: 10vh;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-    }
+    background: #ff9900;
+    min-height: 20vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
     
     .page-footer p {
         font-size: 0.9em;
@@ -595,6 +592,7 @@ td {
     
     .page-footer .social-media li {
         padding: 0 1rem;
+        align-items: center;
     }
   
     .fa {
@@ -612,8 +610,7 @@ td {
 
       .footer-content {
           font-size: 12px;
-          padding-top: 10px;
-          padding-bottom: 10px;
+        
       }
 
 
