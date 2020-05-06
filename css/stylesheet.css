@@ -567,10 +567,13 @@ td {
     align-items: center;
     justify-content: center;
 }
+
+
     
     .page-footer p {
         font-size: 0.9em;
-        padding-top: 20px;
+        padding-top: 10px;
+        color: #FFF5F5;
     }
     
     .page-footer a:link {
@@ -595,13 +598,7 @@ td {
         align-items: center;
     }
   
-    .fa {
-        font-size: 30px;
-        width: 10px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-      }
+   
       .mmu-disclaimer {
         align-items: center;
         justify-content: center;
