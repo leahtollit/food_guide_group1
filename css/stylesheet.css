@@ -243,7 +243,8 @@ ol {
     .full-click-cards {
         padding: 10px;
     }
-    
+
+    }
     .card-container {
         max-width: 1280px;
         margin: 0 auto;
@@ -262,11 +263,13 @@ ol {
         margin-right: 1%;
         margin-bottom: 1rem;
     }
-    
+  
+
     .fc-card * {
         margin: 0;
         padding: 0;
     }
+
     
     .fc-card a {
         display: flex;
@@ -289,11 +292,12 @@ ol {
     }
     
     .fc-card.style-1 {
-        background-image: url(../images/indian.jpg); /* Credit: Pille-Riin Priske Unsplash. https://unsplash.com/photos/BgvvOFEcHjg */ 
+        background-image: url(../images/indian.jpg);  /* Credit: Pille-Riin Priske Unsplash. https://unsplash.com/photos/BgvvOFEcHjg */ 
         /* or background images, etc etc */
         
     }
-    
+
+
     .fc-card.style-2 {
         background-image: url(../images/italian.jpg); /* Credit: Pinar Kucuk. Unsplash. https://unsplash.com/photos/Ae7jQFDTPk4 */
         /* or background images, etc etc */
@@ -309,7 +313,7 @@ ol {
             
         }
         .fc-card.style-5 {
-            background-image: url(../images/japanese.jpg); /* Credit: @janicetea Unsplash. https://unsplash.com/photos/lbxLlgi_8_w *.
+            background-image: url(../images/japanese.jpg); /* Credit: @janicetea Unsplash. https://unsplash.com/photos/lbxLlgi_8_w */
             /* or background images, etc etc */
             
         }
