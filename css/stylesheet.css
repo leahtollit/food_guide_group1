@@ -278,7 +278,7 @@ ol {
         width: 100%;
         min-height: 30vh;
         overflow: hidden;
-        color: #333;
+        color: black;
         text-decoration: none;
         /* cuts off extra content */
         transition: transform 0.2s ease;
@@ -289,21 +289,35 @@ ol {
     }
     
     .fc-card.style-1 {
-        background-color: #eee;
+        background-image: url(../images/indian.jpg); /* Credit: Pille-Riin Priske Unsplash. https://unsplash.com/photos/BgvvOFEcHjg */ 
         /* or background images, etc etc */
         
     }
     
     .fc-card.style-2 {
-        background-color: #ddd;
+        background-image: url(../images/italian.jpg); /* Credit: Pinar Kucuk. Unsplash. https://unsplash.com/photos/Ae7jQFDTPk4 */
         /* or background images, etc etc */
     }
     
     .fc-card.style-3 {
-        background-color: #ccc; }
+        background-image: url(../images/vegetarian.jpg); /* Credit: Sarah Dubler. Unsplash. https://unsplash.com/photos/T_dY6AzzVXU */
         /* or background images, etc etc */
-    
-    
+    }
+        .fc-card.style-4 {
+            background-image: url(../images/mexican.jpg); /* Credit: Herson Rodriguez. Unsplash. https://unsplash.com/photos/aZOqcEK2KuQ */ 
+            /* or background images, etc etc */
+            
+        }
+        .fc-card.style-5 {
+            background-image: url(../images/japanese.jpg); /* Credit: @janicetea Unsplash. https://unsplash.com/photos/lbxLlgi_8_w *.
+            /* or background images, etc etc */
+            
+        }
+        .fc-card.style-6 {
+            background-image: url(../images/thai.jpg); /* Credit: Timothy Dykes. Unsplash. https://unsplash.com/photos/V82GYnR98lY */
+            /* or background images, etc etc */
+            
+        }
     .text-image__container {
         max-width: 1280px;
         margin: 3rem auto;
