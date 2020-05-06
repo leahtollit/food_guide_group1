@@ -139,14 +139,26 @@
         flex: 1 1 25%;
     }
     
-    .big-header__content {
+  
+
+    .big-header__content_whats_on {
         max-width: 700px;
         color: #ff9900;
         text-align: center;
         padding: 10px;
-        font-size: 3rem;
-        
-    }  
+        font-size: 3rem; } 
+    
+
+
+    .big-header_whats_on {
+            background-image: url("../images/social.jpg"); 
+                display: flex;
+               height: 90vh;
+                align-items: center;
+                justify-content: center; 
+                width: auto;
+    }
+                
    /* element styling (e.g. standard p, h1, h2, a, etc) */
 
 h1,
@@ -195,9 +207,17 @@ ol {
         font-family: 'Playfair Display', Arial, serif;
          }
     
+         .big-header__content-index {
+            max-width: 700px;
+            color: #ff9900;
+            text-align: center;
+            padding: 10px;
+            font-size: 3rem;
+            
+        }  
     
-    .big-header {
-    background-color: grey;
+    .big-header-index {
+    background-image: url("../images/manchester.jpg"); 
         display: flex;
         height: 90vh;
         align-items: center;
