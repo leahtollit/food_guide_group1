@@ -244,7 +244,7 @@ ol {
         padding: 10px;
     }
 
-    }
+    
     .card-container {
         max-width: 1280px;
         margin: 0 auto;
@@ -557,20 +557,11 @@ ol {
         padding: 20px;
     }
 
-    #map {
-        height: 60vh;
-        width: 60vh;
-        border: 10px solid #eee;
-    }
+ 
     
-    #map-footer {
-        height: 40vh;
-        border: 10px solid #eee;
-    }
-        /* the CSS for the responsive map is the same as the CSS for the other patterns */
 
     
-        #map.location {
+     #map.location {
             grid-column: 1/-1;
             grid-row: 5;
             width: auto;
