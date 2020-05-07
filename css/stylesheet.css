@@ -569,6 +569,15 @@ ol {
     }
         /* the CSS for the responsive map is the same as the CSS for the other patterns */
 
+    
+        #map.location {
+            grid-column: 1/-1;
+            grid-row: 5;
+            width: auto;
+            height: 150px;
+            /* change this if you want to */
+        }
+    
 .content-column {
     padding: 40px;
 }
