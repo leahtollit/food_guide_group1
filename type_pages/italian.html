@@ -14,7 +14,9 @@
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" /><!-- Make sure you put this AFTER Leaflet's CSS --><script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
-
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
 
 </head>
 
@@ -93,9 +95,9 @@
             </ul>
             <h3>Our Advice</h3>
             <p>Steer clear of this overpriced, pretentious, overrated cafe. Unless you like cheese.</p>
-            <div id="map"></div>
+            
         </div>
-
+        <div id="map" class="location"></div>
     </section>
     <footer class="page-footer">
 
@@ -131,20 +133,35 @@
             }
         }
     </script>
-<script type="text/javascript">
-    var map = L.map('map').setView([53.484322, -2.243352], 16);
+ <script>
+
+    // DJW: moving the marker.
+    // I searched for the restaurant and got the latitude and longiditude of its location from the web address
+    // the map works on specifying these two numbers
+
+    // https://www.google.com/maps/place/Thaikhun/@53.4801065,-2.2509123,15z/data=!4m2!3m1!1s0x0:0x77ed0ec2f0855ab3?sa=X&ved=2ahUKEwjr98jE2qHpAhWOYsAKHW3eDWIQ_BIwCnoECBQQCA
+
+    // So Thaikun is at 53.4801065,-2.2509123 - we add this to this line
+
+    // was    var map = L.map('map').setView([53.467658, -2.240798], 16);
+    // now    
+    var map = L.map('map').setView([53.4850437, -2.2437375], 16);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    L.marker([53.484322, -2.243352]).addTo(map)
-        .bindPopup('');
-    // if you want this marker to be visible, remove the semicolon and add .openPopup(); to the end of this line
-        
+    // and then we change the position of the marker too to the location of the restaurant, specified by its latitude and longditude
 
-   
-    </script>
+    // was        L.marker([53.467658, -2.240798]).addTo(map)
+    // now
+    L.marker([53.4850437, -2.2437375]).addTo(map)
+        .bindPopup('Vapiano') .openPopup();
+// if you want this marker to be visible, remove the semicolon and add .openPopup(); to the end of this line
+
+
+
+</script>
     
 </body>
 
