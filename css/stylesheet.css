@@ -458,7 +458,7 @@ ol {
             /* you can set grid-template-rows but a lot of the time the content does a good enough job */
         }
         /* h2 goes all the way across */
-        .grid-layout h2 {
+        .grid-layout h1 {
             grid-row: 1/1;
             grid-column: 1/-1;
         }
