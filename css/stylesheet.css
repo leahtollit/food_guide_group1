@@ -190,9 +190,11 @@ p {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-
-
 }
+
+p a:hover {
+    color: #ff9900;
+} 
 ol {
     font-size: 1rem;
     padding-left: 20px;
@@ -215,6 +217,7 @@ ol {
             font-size: 3rem;
             
         }  
+
     
     .big-header-index {
     background-image: url("../images/manchester.jpg"); /* Credit:  Meet in Manchester. https://www.meetinmanchester.com/plan/venue-location-service-manchester */
@@ -604,6 +607,11 @@ ol {
 .content-column th  {
     text-align: left;
 }
+
+.content-column__content td a:hover {
+    color: #ff9900 } 
+
+
 
 .content-column th,
 td {
