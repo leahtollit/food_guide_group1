@@ -687,7 +687,7 @@ td {
     
 
       .big-header-types {
-        background-image: url(../images/type.jpg);
+        background-image: url(../images/type.jpg); /* Credit: Jay Wennington. Unsplash. https://unsplash.com/photos/N_Y88TWmGwA */
         min-height: 69vh;
         display: flex;
         align-items: center;
@@ -697,4 +697,17 @@ td {
     .big-header__content_types{
         text-align: center;
         color: white;
+     
     }
+    .big-header__content_types h1 {
+        max-width: 700px;
+        color: #ff9900;
+        text-align: center;
+        padding: 10px;
+        font-size: 3rem;
+        text-shadow: 2px 2px white;
+        
+    } 
+    
+    
+    
