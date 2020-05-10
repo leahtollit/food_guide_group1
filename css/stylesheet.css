@@ -686,4 +686,15 @@ td {
       }
     
 
-      
+      .big-header-types {
+        background-image: url(../images/wine.jpg);
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .big-header__content_types{
+        text-align: center;
+        color: white;
+    }
