@@ -687,8 +687,8 @@ td {
     
 
       .big-header-types {
-        background-image: url(../images/wine.jpg);
-        min-height: 70vh;
+        background-image: url(../images/type.jpg);
+        min-height: 69vh;
         display: flex;
         align-items: center;
         justify-content: center;
