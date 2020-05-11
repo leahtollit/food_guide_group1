@@ -51,14 +51,14 @@
         transition: all 0.2s ease;
         font-family: 'Playfair Display', Arial, serif;
         letter-spacing: 2px;
-        color: #0a1172;
+        color: #020A7B;
         text-align: center;
     
     }
     
     .logo__links a:hover {
         background: #ff9900;
-        color: #0a1172;
+        color: #020A7B;
     }
     
     .mobile-container {
@@ -223,7 +223,29 @@ ol {
             
         }  
 
-
+        .big-header-types {
+            background-image: url(../images/type.jpg); /* Credit: Jay Wennington. Unsplash. https://unsplash.com/photos/N_Y88TWmGwA */
+            min-height: 69vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .big-header__content_types{
+            text-align: center;
+            color: white;
+         
+        }
+        .big-header__content_types h1 {
+            max-width: 700px;
+            color: #ff9900;
+            text-align: center;
+            padding: 10px;
+            font-size: 4rem;
+            text-shadow: 0 0 10px black;
+            text-shadow: -5px 5px 20px rgba(0, 0, 0, 0.9); } 
+          
+            
     
     .big-header-index {
     background-image: url("../images/manchester.jpg"); /* Credit: Shishir Pandey. Unsplash. https://unsplash.com/photos/RZ8yAT8_qpI */
@@ -387,9 +409,9 @@ ol {
         display: inline-block;
         padding: 10px 30px;
         border-radius: 0.3rem;
-        background: #ff9900;
+        background: #020A7B;
         margin-top: 1rem;
-        color: #0a1172;
+        color: white;
         text-decoration: none;
         font-weight: bold;
     }
@@ -399,9 +421,9 @@ ol {
         display: inline-block;
         padding: 10px 30px;
         border-radius: 0.3rem;
-        background: #0a1172;
+        background: #ff9900;
         margin-top: 1rem;
-        color:white;
+        color:#020A7B;
         text-decoration: none;
         font-weight: bold;
     }
@@ -628,11 +650,11 @@ td {
     color: #ff9900 }
 
 .content-column a:visited{
-    color: #0a1172 }
+    color: #020A7B }
     
 
     .page-footer {
-    background: #ff9900;
+    background: #020A7B;
     min-height: 15vh;
     padding: 10px;
     display: flex;
@@ -646,18 +668,18 @@ td {
     .page-footer p {
         font-size: 0.9em;
         padding-top: 5px;
-        color: #FFF5F5;
+        color: white;
     }
     
     .page-footer a:link {
-        color: #F9F5F7;
+        color: white;
     }
     
     .page-footer a:visited {
         color: #FFF5F5;
     }
     .page-footer a:hover {
-          color:  #0a1172;
+          color:  #ff9900;
     }
     
     
@@ -691,29 +713,7 @@ td {
       }
     
 
-      .big-header-types {
-        background-image: url(../images/type.jpg); /* Credit: Jay Wennington. Unsplash. https://unsplash.com/photos/N_Y88TWmGwA */
-        min-height: 69vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .big-header__content_types{
-        text-align: center;
-        color: white;
-     
-    }
-    .big-header__content_types h1 {
-        max-width: 700px;
-        color: #ff9900;
-        text-align: center;
-        padding: 10px;
-        font-size: 4rem;
-        text-shadow: 0 0 10px black;
-        text-shadow: -5px 5px 20px rgba(0, 0, 0, 0.9); } 
-      
-        
+
 
 
 
