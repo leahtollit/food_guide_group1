@@ -227,7 +227,7 @@ ol {
                 color: #ff9900;
                 text-align: center;
                 padding: 5px;
-                font-size: 1.5rem;
+                font-size: 1rem;
                 text-shadow: 0 0 10px black;
                 text-shadow: -2px 2px 15px rgba(0, 0, 0, 0.9);
             }
@@ -236,10 +236,14 @@ ol {
 
         .big-header-types {
             background-image: url(../images/type.jpg); /* Credit: Jay Wennington. Unsplash. https://unsplash.com/photos/N_Y88TWmGwA */
-            min-height: 70vh;
             display: flex;
+            height: 90vh;
             align-items: center;
             justify-content: center;
+            background-repeat: no-repeat;
+            width: 80%;
+            margin: 0 auto;
+            border: red 1px solid;
             
         }
         
@@ -262,12 +266,26 @@ ol {
     .big-header-index {
     background-image: url("../images/manchester.jpg"); /* Credit: Shishir Pandey. Unsplash. https://unsplash.com/photos/RZ8yAT8_qpI */
         display: flex;
-        height: 90vh;
+        height: 70vh;
         align-items: center;
         justify-content: center;
         background-repeat: no-repeat;
         width: 80%;
         margin: 0 auto;
+        border: solid red 1px;
+    }
+
+    @media screen and (max-width: 760px){
+        .big-header-index {
+            background-image: url("../images/manchester.jpg"); /* Credit: Shishir Pandey. Unsplash. https://unsplash.com/photos/RZ8yAT8_qpI */
+                display: flex;
+                height: 40vh;
+                align-items: center;
+                justify-content: center;
+                background-repeat: no-repeat;
+                width: 80%;
+                margin: 0 auto;
+            }
     }
         
   
@@ -414,11 +432,9 @@ ol {
     }
 
     
-
-
-    
     .text-image__content {
         flex: 1;
+        
     }
     
     .text-image__content a {
