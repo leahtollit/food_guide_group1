@@ -319,7 +319,6 @@ ol {
         background-repeat: no-repeat;
         width: 80%;
         margin: 0 auto;
-        border: solid red 1px;
     }
 
     @media screen and (max-width: 760px){
