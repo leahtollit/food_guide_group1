@@ -237,14 +237,13 @@ ol {
         .big-header-types {
             background-image: url(../images/type.jpg); /* Credit: Jay Wennington. Unsplash. https://unsplash.com/photos/N_Y88TWmGwA */
             display: flex;
-            height: 90vh;
+            height: 40vh;
             align-items: center;
             justify-content: center;
             background-repeat: no-repeat;
             width: 80%;
             margin: 0 auto;
-            border: red 1px solid;
-            
+            border: solid red 1px;
         }
         
         .big-header__content_types{
@@ -260,6 +259,23 @@ ol {
             font-size: 4rem;
             text-shadow: 0 0 10px black;
             text-shadow: -5px 5px 20px rgba(0, 0, 0, 0.9); } 
+
+            @media screen and (max-width:760px){
+                .big-header__content_types{
+                    text-align: center;
+                    color: white;
+                 
+                }
+                .big-header__content_types h1 {
+                    max-width: 700px;
+                    color: #ff9900;
+                    text-align: center;
+                    padding: 5x;
+                    font-size: 2rem;
+                    text-shadow: 0 0 10px black;
+                    text-shadow: -2px 2px 10px rgba(0, 0, 0, 0.9); } 
+
+            }
           
             
     
