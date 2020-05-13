@@ -311,7 +311,7 @@ ol {
             
     
     .big-header-index {
-    background-image: url("../images/manchester.jpg"); /* Credit: Shishir Pandey. Unsplash. https://unsplash.com/photos/RZ8yAT8_qpI */
+    background-image: url("../images/manchester_2.jpg"); /* Credit: Shishir Pandey. Unsplash. https://unsplash.com/photos/RZ8yAT8_qpI */
         display: flex;
         height: 70vh;
         align-items: center;
@@ -323,7 +323,7 @@ ol {
 
     @media screen and (max-width: 760px){
         .big-header-index {
-            background-image: url("../images/manchester.jpg"); /* Credit: Shishir Pandey. Unsplash. https://unsplash.com/photos/RZ8yAT8_qpI */
+            background-image: url("../images/manchester_3.jpg"); /* Credit: Shishir Pandey. Unsplash. https://unsplash.com/photos/RZ8yAT8_qpI */
                 display: flex;
                 height: 40vh;
                 align-items: center;
