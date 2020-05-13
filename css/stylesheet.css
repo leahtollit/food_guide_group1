@@ -192,6 +192,15 @@ p {
         font-size: 3rem;
     }
 
+    @media screen and (max-width: 760px){
+        .big-header__content-index{
+            text-align: center;
+            color: white;
+            font-size: 1.5rem;
+        }
+        
+    }
+
     .big-header-index{
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/manchester.jpg");
         background-repeat: no-repeat;
