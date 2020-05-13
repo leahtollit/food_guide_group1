@@ -1,3 +1,38 @@
+    
+/*FONT STYLE FOR WHOLE SITE*/
+h1,
+h2 {
+    font-family: 'Playfair Display', Arial, serif;
+    letter-spacing: 2px;
+}
+
+.header-content p {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+h3  { font-size: 1.5rem;
+    font-family: 'Playfair Display', Arial, serif;
+}
+h4  { font-size: 1rem;
+    font-family: 'Playfair Display', Arial, serif;
+}
+
+p {
+    font-size: 1rem;
+    padding-bottom: 15px;
+    font-family: 'Playfair Display', Arial, serif;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    /*END OF FONT STYLE FOR WHOLE SITE*/
+    
+    /*FOOTER STARTS HERE*/
     @media screen and (min-width: 700px) {
         .logo-links {
             display: flex;
@@ -83,7 +118,6 @@
     }
     
     .topnav a {
-        font-family:'Playfair Display', Arial, serif;
         color: white;
         padding: 14px 16px;
         text-decoration: none;
@@ -140,223 +174,124 @@
     .page-nav li {
         flex: 1 1 25%;
     }
+    /*FOOTER ENDS HERE*/
 
-
-    .big-header_whats_on {
-        background-image: url("../images/social.jpg"); /* Credit: Gabriel Gurrola. Unsplash. https://unsplash.com/photos/YnaPN0dl4A8 8*/
-        display: flex;
-        height: 70vh;
-        align-items: center;
-        justify-content: center;
-        background-repeat: no-repeat;
-        width: 80%;
-        margin: 0 auto;
-        }
-
-    .big-header__content_whats_on {
-        max-width: 700px;
-        color: #ff9900;
-        text-align: center;
-        padding: 10px;
-        font-size: 3rem;
-        text-shadow: 0 0 10px black;
-        text-shadow: -5px 5px 20px rgba(0, 0, 0, 0.9); } 
-
-        @media screen and (max-width: 760px) {
-            .big-header__content_whats_on {
-                max-width: 700px;
-                color: #ff9900;
-                text-align: center;
-                padding: 50px;
-                font-size: 1rem;
-                text-shadow: 0 0 10px black;
-                text-shadow: -2px 2px 10px rgba(0, 0, 0, 0.9); } 
-
-        }
-
-        @media screen and (max-width: 760px){
-            .big-header_whats_on {
-                background-image: url("../images/social.jpg"); /* Credit: Gabriel Gurrola. Unsplash. https://unsplash.com/photos/YnaPN0dl4A8 8*/
-                display: flex;
-                height: 40vh;
-                align-items: center;
-                justify-content: center;
-                background-repeat: no-repeat;
-                width: 80%;
-                margin: 0 auto;
-                }}
-        
-
-
-
-    
-
-
-                
-   /* element styling (e.g. standard p, h1, h2, a, etc) */
-
-h1,
-h2 {
-    font-family: 'Playfair Display', Arial, serif;
-    letter-spacing: 2px;
-}
-
-.header-content p {
-    text-align: center;
-}
-
-h2 {
-    font-size: 1.5rem;
-    text-align: left;
-}
-
-h3  { font-size: 1.5rem;
-    font-family: 'Playfair Display', Arial, serif;
-}
-h4  { font-size: 1rem;
-    font-family: 'Playfair Display', Arial, serif;
-}
-
-p {
-    font-size: 1rem;
-    padding-bottom: 15px;
-    font-family: 'Playfair Display', Arial, serif;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-p a:hover {
-    color: #ff9900;
-} 
-ol {
-    font-size: 1rem;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: 'Playfair Display', Arial, serif;
-     }
-
-     ul {
-        font-size: 1rem;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-family: 'Playfair Display', Arial, serif;
-         }
-    
-         .big-header__content-index {
-            max-width: 700px;
-            color: #ff9900;
-            text-align: center;
-            padding: 5px;
-            font-size: 3rem;
-            text-shadow: 0 0 10px black;
-            text-shadow: -5px 5px 20px rgba(0, 0, 0, 0.9);
-            
-        }  
-
-        @media screen and (max-width: 760px){
-            .big-header__content-index {
-                max-width: 350px;
-                color: #ff9900;
-                text-align: center;
-                padding: 5px;
-                font-size: 1rem;
-                text-shadow: 0 0 10px black;
-                text-shadow: -2px 2px 15px rgba(0, 0, 0, 0.9);
-            }
-        
-        }
-
-        .big-header-types {
-            background-image: url(../images/type_2.jpg); /* Credit: Jay Wennington. Unsplash. https://unsplash.com/photos/N_Y88TWmGwA */
-            display: flex;
-            height: 40vh;
-            align-items: center;
-            justify-content: center;
-            background-repeat: no-repeat;
-            width: 80%;
-            margin: 0 auto;
-        }
-        
-        .big-header__content_types{
-            text-align: center;
-            color: white;
-         
-        }
-        .big-header__content_types h1 {
-            max-width: 700px;
-            color: #ff9900;
-            text-align: center;
-            padding: 10px;
-            font-size: 4rem;
-            text-shadow: 0 0 10px black;
-            text-shadow: -5px 5px 20px rgba(0, 0, 0, 0.9); } 
-
-            @media screen and (max-width:760px){
-                .big-header__content_types{
-                    text-align: center;
-                    color: white;
-                 
-                }
-                .big-header__content_types h1 {
-                    max-width: 700px;
-                    color: #ff9900;
-                    text-align: center;
-                    padding: 5px;
-                    font-size: 2rem;
-                    text-shadow: 0 0 10px black;
-                    text-shadow: -2px 2px 10px rgba(0, 0, 0, 0.9); } 
-
-            }
-          
-            
-    
+    /*HOMEPAGE CSS STARTS HERE*/
+    /* INDEX.HTML BIG HEADER*/
     .big-header-index {
-    background-image: url("../images/manchester_2.jpg"); /* Credit: Shishir Pandey. Unsplash. https://unsplash.com/photos/RZ8yAT8_qpI */
+        background-color: blue;
+        min-height: 70vh;
         display: flex;
-        height: 70vh;
         align-items: center;
         justify-content: center;
-        background-repeat: no-repeat;
-        width: 80%;
-        margin: 0 auto;
+
+    }
+    .big-header__content-index{
+        text-align: center;
+        color: white;
+        font-size: 3rem;
     }
 
-    @media screen and (max-width: 760px){
-        .big-header-index {
-            background-image: url("../images/manchester_3.jpg"); /* Credit: Shishir Pandey. Unsplash. https://unsplash.com/photos/RZ8yAT8_qpI */
-                display: flex;
-                height: 40vh;
-                align-items: center;
-                justify-content: center;
-                background-repeat: no-repeat;
-                width: 80%;
-                margin: 0 auto;
-            }
-    }
+    .big-header-index{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/manchester.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
         
-  
-    .big-header h1 h2 {
-        font-size: 4rem;
-        line-height: 1.2;
-        margin: 0;
-        padding: 0; } 
+
+    }
+
+    /* INDEX.HTML BIG HEADER ENDS HERE!!!*/
+
+    /* TEXT IMAGE RIGHT CSS STARTS HERE!!!*/
+    .text-image__container {
+        max-width: 1280px;
+        margin: 3rem auto;
+        padding: 1rem;
+    }
     
+    @media screen and (min-width:700px) {
+        .text-image__container {
+            display: flex;
+            align-items: center;
+        }
+    }
     
+    @media screen and (min-width:700px) {
+        .text-image__text {
+            flex: 1;
+        }
+        .left .text-image__text {
+            order: 1;
+        }
+        .text-image__text,
+        .left .text-image__text {
+            padding: 0 2rem;
+        }
+    }
+    
+    .text-image__content {
+        flex: 1;
+    }
+    
+    .text-image__content a {
+        display: inline-block;
+        padding: 10px 30px;
+        border-radius: 0.3rem;
+        background: red;
+        margin-top: 1rem;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    /* TEXT IMAGE RIGHT CSS ENDS HERE!!!*/
+    /*INDEX.HTML CSS ENDS HERE*/
+    
+    /* RESTAURANT TYPES CSS STARTS HERE*/
+    /* RESTAURANT BIG HEADER */
+    .big-header-types {
+        background-color: blue;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .big-header__content_types{
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+    }
+
+    .big-header-types{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/type.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        
+
+    }
+    /* RESTAURNAT BIG HEADER END*/
+
+    /* RESTAURANT COLUMNS FOR RESTAURANT TYPES*/
     .content-column {
         padding: 40px;
     }
     
     .content-column__content {
-        font-family: 'Playfair Display', Arial, serif;
         max-width: 700px;
         margin: 0 auto;
     }
-    
+    /* END OF RESTAURANT COLUMNS FOR RESTAURNAT TYPES*/
+
+    /* FULL CLICK CARDS*/
     .full-click-cards {
         padding: 10px;
     }
-
     
     .card-container {
         max-width: 1280px;
@@ -376,18 +311,10 @@ ol {
         margin-right: 1%;
         margin-bottom: 1rem;
     }
-  
-
+    
     .fc-card * {
         margin: 0;
         padding: 0;
-    }
-    .a-card {
-        flex: 0 0 32%;
-        background: #eee;
-        padding: 1rem;
-        margin-right: 1%;
-        margin-bottom: 1rem;
     }
     
     .fc-card a {
@@ -400,7 +327,7 @@ ol {
         width: 100%;
         min-height: 30vh;
         overflow: hidden;
-        color:white;
+        color: white;
         text-shadow: 2px 2px black;
         text-decoration: none;
         /* cuts off extra content */
@@ -410,223 +337,402 @@ ol {
     .fc-card a:hover {
         transform: scale(1.1);
     }
-
-
+    
     .fc-card.style-1 {
-        background-image: url(../images/indian.jpg); 
-        opacity: 0.8;  /* Credit: Pille-Riin Priske Unsplash. https://unsplash.com/photos/BgvvOFEcHjg */ 
-        /* or background images, etc etc */
-        
+        background-color: #eee;
+        background-image: url(../images/indian.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
     }
 
-
-    .fc-card.style-2 {
+    .fc-card.style-2{
+        background-color: white;
         background-image: url(../images/italian.jpg);
-        opacity: 0.8;/* Credit: Pinar Kucuk. Unsplash. https://unsplash.com/photos/Ae7jQFDTPk4 */
-        /* or background images, etc etc */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
     }
-    
+
     .fc-card.style-3 {
+        background-color: white;
         background-image: url(../images/vegetarian.jpg);
-        opacity: 0.8; /* Credit: Sarah Dubler. Unsplash. https://unsplash.com/photos/T_dY6AzzVXU */
-        /* or background images, etc etc */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
     }
-        .fc-card.style-4 {
-            background-image: url(../images/mexican.jpg);
-            opacity: 0.8; /* Credit: Herson Rodriguez. Unsplash. https://unsplash.com/photos/aZOqcEK2KuQ */ 
-            /* or background images, etc etc */
-            
-        }
-        .fc-card.style-5 {
-            background-image: url(../images/japanese.jpg);
-            opacity: 0.8; /* Credit: @janicetea Unsplash. https://unsplash.com/photos/lbxLlgi_8_w */
-            /* or background images, etc etc */
-            
-        }
-        .fc-card.style-6 {
-            background-image: url(../images/thai.jpg); 
-            opacity: 0.8;/* Credit: Timothy Dykes. Unsplash. https://unsplash.com/photos/V82GYnR98lY */
-            /* or background images, etc etc */
-            
-        }
-    .text-image__container {
-        max-width: 1280px;
-        margin: 3rem auto;
-        padding: 1rem;
+
+    .fc-card.style-4{
+        background-color: white;
+        background-image: url(../images/mexican.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
 
     }
 
+    .fc-card.style-5{
+        background-color: white;
+        background-image: url(../images/japanese.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
 
+    }
+
+    .fc-card.style-6{
+        background-color: white;
+        background-image: url(../images/thai.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+    }
+    /* ENB OF CARDS*/
     
-    @media screen and (min-width:700px) {
-        .text-image__container {
-            display: flex;
-            align-items: center;
-
-        }
-    }
     
-    @media screen and (min-width:700px) {
-        .text-image__text {
-            flex: 1;
-        }
-        .left .text-image__text {
-            order: 1;
-        }
-        .text-image__text,
-        .left .text-image__text {
-            padding: 0 2rem;
-        }
-    }
+/*WHATS ON BIG HEADER*/
+.big-header_whats_on {
+    background-color: blue;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    
-    .text-image__content {
-        flex: 1;
-        
-    }
-    
-    .text-image__content a {
-        display: inline-block;
-        padding: 10px 30px;
-        border-radius: 0.3rem;
-        background: #020A7B;
-        margin-top: 1rem;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-    }
-   
+}
+.big-header__content_whats_on{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
 
-    .text-image__content a:hover {
-        display: inline-block;
-        padding: 10px 30px;
-        border-radius: 0.3rem;
+.big-header_whats_on{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/social.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+}
+/*END OF WHATS ON BIG HEADER*/
+
+/*CONTACT US FORM*/
+@media screen and (min-width: 700px) {
+    .page-footer {
         background: #ff9900;
-        margin-top: 1rem;
-        color:#020A7B;
-        text-decoration: none;
-        font-weight: bold;
+        min-height: 5vh;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: #ff9900;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #ff9900;
+}
+/* Add a background color and some padding around the form */
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+
+
+ #map.location {
+        grid-column: 1/-1;
+        grid-row: 5;
+        width: auto;
+        height: 150px;
+        /* change this if you want to */
     }
 
-    /* the CSS for the responsive map is the same as the CSS for the other patterns */
-    
-    .content-column {
-        padding: 40px;
+.content-column {
+padding: 40px;
+}
+
+.content-column__content {
+max-width: 700px;
+margin: 0 auto;
+}
+
+.content-column table {
+width: 100%;
+border-collapse: collapse;
+}
+
+.content-column td {
+border-top: 1px solid #ddd;
+}
+
+.content-column th  {
+text-align: left;
+}
+
+.content-column__content td a:hover {
+color: #ff9900 } 
+
+
+
+.content-column th,
+td {
+padding: 0.6rem 0.3rem;
+}
+
+.content-column a:hover {
+color: #ff9900 }
+
+.content-column a:visited{
+color: #020A7B }
+
+
+.page-footer {
+background: #020A7B;
+min-height: 15vh;
+padding: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+/*END OF CONTACT US*/
+
+/*CSS FOR ALL OF THE FOOD PAGES*/
+.text-image__container {
+    max-width: 1280px;
+    margin: 3rem auto;
+    padding: 1rem;
+
+}
+
+
+
+@media screen and (min-width:700px) {
+    .text-image__container {
+        display: flex;
+        align-items: center;
+
     }
-    
-    .content-column__content {
-        max-width: 700px;
-        margin: 0 auto;
+}
+
+@media screen and (min-width:700px) {
+    .text-image__text {
+        flex: 1;
     }
-    /* let's not have a grid at small screen sizes: just take care of the typography and white space */
+    .left .text-image__text {
+        order: 1;
+    }
+    .text-image__text,
+    .left .text-image__text {
+        padding: 0 2rem;
+    }
+}
+
+
+.text-image__content {
+    flex: 1;
     
+}
+
+.text-image__content a {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 0.3rem;
+    background: #020A7B;
+    margin-top: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.text-image__content a:hover {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 0.3rem;
+    background: #ff9900;
+    margin-top: 1rem;
+    color:#020A7B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* the CSS for the responsive map is the same as the CSS for the other patterns */
+
+.content-column {
+    padding: 40px;
+}
+
+.content-column__content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+/* let's not have a grid at small screen sizes: just take care of the typography and white space */
+
+.grid-layout {
+    padding: 40px; } 
+
+.grid-layout h3 {
+    margin: 0;
+    padding: 1rem 0 0.2rem 0;
+}
+
+.grid-layout p {
+    margin: 0;
+    padding: 0 0 0.5rem 0;
+}
+
+.grid-layout img {
+    display: block;
+    margin-bottom: 1rem;
+    max-width: 100%; 
+    height: auto;
+
+}
+
+.ratings-and-more,
+.address {
+    padding-top: 2rem;
+}
+
+.ratings-and-more h3,
+.address h3 {
+    color: #666;
+}
+
+.ratings-and-more ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.ratings-and-more li {
+    border-top: 1px solid #ccc;
+    padding: 0.5rem 0;
+}
+
+.ratings-and-more h4,
+.address h4,
+.ratings-and-more p {
+    margin: 0;
+    padding: 0;
+}
+/* OK, let's turn the grid on at our 700px breakpoint. You will probably need a different breakpoint. */
+/* see https://css-tricks.com/snippets/css/complete-guide-grid/ to figure out how to control the grid */
+
+@media screen and (min-width: 700px) {
     .grid-layout {
-        padding: 40px; } 
-    
-    .grid-layout h3 {
-        margin: 0;
-        padding: 1rem 0 0.2rem 0;
+        display: grid;
+        max-width: 1000px;
+        margin: auto;
+        /* create a gap between grid columns and rows */
+        grid-gap: 1rem;
+        /* 7 column grid */
+        grid-template-columns: repeat(7, 1fr);
+        /* you can set grid-template-rows but a lot of the time the content does a good enough job */
     }
-    
-    .grid-layout p {
-        margin: 0;
-        padding: 0 0 0.5rem 0;
+    /* h2 goes all the way across */
+    .grid-layout h1 {
+        grid-row: 1/1;
+        grid-column: 1/-1;
     }
-    
+    /* fit our images into the grid */
     .grid-layout img {
-        display: block;
-        margin-bottom: 1rem;
-        max-width: 100%; 
-        height: auto;
+        grid-row: 2/4;
+        grid-column: 1/5;
+        margin: 0;
+        align-self: start;
+        /* 'pack' images together */
+    }
+    .grid-layout img+img {
+        grid-row: 2/3;
+        grid-column: 5/8;
+    }
+    .grid-layout img+img+img {
+        grid-row: 3/4;
+        grid-column: 5/7;
+    }
+    /* fit our content into the grid - in a different order to the original source code. Turn off any white space that we used for the mobile view that doesn't work here. */
+    .grid-layout .text-content {
+        grid-row: 4;
+        grid-column: 1/4;
+    }
+    .grid-layout .address {
+        grid-row: 4;
+        grid-column: 7/8;
+        padding-top: 0;
+    }
+    .grid-layout .address h3 {
+        margin: 0;
+        padding: 0;
+    }
+    .grid-layout .ratings-and-more {
+        grid-row: 4;
+        grid-column: 5/7;
+        padding-top: 0;
+    }
+}
+/*CSS FOR ALL OF THE FOOD PAGES END*/
 
-    }
-    
-    .ratings-and-more,
-    .address {
-        padding-top: 2rem;
-    }
-    
-    .ratings-and-more h3,
-    .address h3 {
-        color: #666;
-    }
-    
-    .ratings-and-more ul {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-    }
-    
-    .ratings-and-more li {
-        border-top: 1px solid #ccc;
-        padding: 0.5rem 0;
-    }
-    
-    .ratings-and-more h4,
-    .address h4,
-    .ratings-and-more p {
-        margin: 0;
-        padding: 0;
-    }
-    /* OK, let's turn the grid on at our 700px breakpoint. You will probably need a different breakpoint. */
-    /* see https://css-tricks.com/snippets/css/complete-guide-grid/ to figure out how to control the grid */
-    
+
+
+
+/* FOOTER */
     @media screen and (min-width: 700px) {
-        .grid-layout {
-            display: grid;
-            max-width: 1000px;
-            margin: auto;
-            /* create a gap between grid columns and rows */
-            grid-gap: 1rem;
-            /* 7 column grid */
-            grid-template-columns: repeat(7, 1fr);
-            /* you can set grid-template-rows but a lot of the time the content does a good enough job */
-        }
-        /* h2 goes all the way across */
-        .grid-layout h1 {
-            grid-row: 1/1;
-            grid-column: 1/-1;
-        }
-        /* fit our images into the grid */
-        .grid-layout img {
-            grid-row: 2/4;
-            grid-column: 1/5;
-            margin: 0;
-            align-self: start;
-            /* 'pack' images together */
-        }
-        .grid-layout img+img {
-            grid-row: 2/3;
-            grid-column: 5/8;
-        }
-        .grid-layout img+img+img {
-            grid-row: 3/4;
-            grid-column: 5/7;
-        }
-        /* fit our content into the grid - in a different order to the original source code. Turn off any white space that we used for the mobile view that doesn't work here. */
-        .grid-layout .text-content {
-            grid-row: 4;
-            grid-column: 1/4;
-        }
-        .grid-layout .address {
-            grid-row: 4;
-            grid-column: 7/8;
-            padding-top: 0;
-        }
-        .grid-layout .address h3 {
-            margin: 0;
-            padding: 0;
-        }
-        .grid-layout .ratings-and-more {
-            grid-row: 4;
-            grid-column: 5/7;
-            padding-top: 0;
-        }
-    }
-
-
-
-    @media screen and (min-width: 800px) {
         .page-footer {
             background: #ff9900;
             min-height: 5vh;
@@ -638,61 +744,7 @@ ol {
         }
     }
 
-    /* Style inputs with type="text", select elements and textareas */
-    
-    input[type=text],
-    select,
-    textarea {
-        width: 100%;
-        /* Full width */
-        padding: 12px;
-        /* Some padding */
-        border: 1px solid #ccc;
-        /* Gray border */
-        border-radius: 4px;
-        /* Rounded borders */
-        box-sizing: border-box;
-        /* Make sure that padding and width stays in place */
-        margin-top: 6px;
-        /* Add a top margin */
-        margin-bottom: 16px;
-        /* Bottom margin */
-        resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
-    }
-    /* Style the submit button with a specific background color etc */
-    
-    input[type=submit] {
-        background-color: #ff9900;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-    /* When moving the mouse over the submit button, add a darker green color */
-    
-    input[type=submit]:hover {
-        background-color: #ff9900;
-    }
-    /* Add a background color and some padding around the form */
-    
-    .container {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-    }
 
- 
-    
-
-    
-     #map.location {
-            grid-column: 1/-1;
-            grid-row: 5;
-            width: auto;
-            height: 150px;
-            /* change this if you want to */
-        }
     
 .content-column {
     padding: 40px;
@@ -791,11 +843,3 @@ td {
         position: relative;
         font-size: 12px;
       }
-    
-
-
-
-
-
-    
-    
