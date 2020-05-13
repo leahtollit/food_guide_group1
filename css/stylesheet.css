@@ -83,6 +83,7 @@
     }
     
     .topnav a {
+        font-family:'Playfair Display', Arial, serif;
         color: white;
         padding: 14px 16px;
         text-decoration: none;
