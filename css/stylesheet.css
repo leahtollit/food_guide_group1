@@ -230,7 +230,7 @@ li {
     .text-image__container {
         max-width: 100%;
         margin: 3rem auto;
-        padding: 1rem;
+        padding: 1rem auto;
         height: auto;
     }
 
