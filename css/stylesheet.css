@@ -148,7 +148,7 @@ li {
         color: black;
     }
     
-    @media (max-width: 760px) {
+    @media (max-width: 950px) {
         .mobile-container {
             display: block;
         }
@@ -157,14 +157,14 @@ li {
         }
     }
     
-    @media (min-width: 761px) {
+    @media (min-width: 951px) {
         .topnav {
             display: none;
         }
         
     }
     
-    @media screen and (min-width: 760px) {
+    @media screen and (min-width: 950px) {
         .page-nav {
             position: fixed;
             width: 100%;
