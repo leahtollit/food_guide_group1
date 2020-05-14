@@ -889,3 +889,8 @@ td {
           max-width: 100%;
           max-height: auto;
       }
+
+      video {
+          max-width: 100%;
+          max-height: auto;
+      }
