@@ -201,7 +201,7 @@ p {
     }
 
     .big-header-index{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/manchester.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Hero-image-food.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-repeat: no-repeat;
@@ -219,6 +219,11 @@ p {
         margin: 3rem auto;
         padding: 1rem;
     }
+
+    @media screen and (max-width:700px){
+    .text-image__container{
+        max-width: 650px;
+    }}
     
     @media screen and (min-width:700px) {
         .text-image__container {
