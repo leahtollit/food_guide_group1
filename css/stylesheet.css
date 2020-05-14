@@ -143,7 +143,7 @@ li {
     
     .topnav a:hover {
         background-color: #ddd;
-        color: #ff9900
+        color: #ff9900;
     }
     
     .active {
@@ -187,7 +187,7 @@ li {
     /*HOMEPAGE CSS STARTS HERE*/
     /* INDEX.HTML BIG HEADER*/
     .big-header-index {
-        background-color: blue;
+        background-color: #020A7B;
         min-height: 70vh;
         display: flex;
         align-items: center;
