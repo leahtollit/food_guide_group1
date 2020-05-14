@@ -11,7 +11,7 @@ h2 {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: left;
 }
 
@@ -23,7 +23,7 @@ h4  { font-size: 1rem;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding-bottom: 15px;
     font-family: 'Playfair Display', Arial, serif;
     max-width: 600px;
