@@ -126,7 +126,7 @@ p {
     }
     
     .topnav a.icon {
-        background: black;
+        background: #020A7B;
         display: block;
         position: absolute;
         right: 0;
@@ -201,7 +201,7 @@ p {
     }
 
     .big-header-index{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/manchester.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Hero-image-food.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-repeat: no-repeat;
@@ -305,6 +305,7 @@ p {
     }
     
     .content-column__content {
+        font-family: 'Playfair Display', Arial, serif;
         max-width: 700px;
         margin: 0 auto;
     }
