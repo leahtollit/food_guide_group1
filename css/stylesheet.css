@@ -97,7 +97,7 @@ li {
         color: #020A7B;
         text-align: center;
     
-    }
+    } /* CREDIT DERREN MMU */
     
     .logo__links a:hover {
         background: #ff9900;
@@ -269,7 +269,9 @@ li {
         text-decoration: none;
         font-weight: bold;
     } /* CREDIT DERREN MMU */
+
     /* TEXT IMAGE RIGHT CSS ENDS HERE!!!*/
+
     /*INDEX.HTML CSS ENDS HERE*/
     
     /* RESTAURANT TYPES CSS STARTS HERE*/
@@ -362,7 +364,6 @@ li {
         color: white;
         text-shadow: 2px 2px black;
         text-decoration: none;
-        /* cuts off extra content */
         transition: transform 0.2s ease;
     }/* CREDIT DERREN MMU */ 
     
@@ -445,12 +446,12 @@ li {
     align-items: center;
     justify-content: center;
 
-}
+} /* CREDIT DERREN MMU */
 .big-header__content_whats_on{
     text-align: center;
     color: white;
     font-size: 3rem;
-}
+} /* CREDIT DERREN MMU */
 
 @media screen and (max-width: 760px){
     .big-header__content_whats_on{
@@ -484,7 +485,7 @@ li {
         align-items: center;
         justify-content: center;
     }
-}
+} /* CREDIT DERREN MMU */
 
 /* Style inputs with type="text", select elements and textareas */
 
@@ -597,7 +598,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-}
+} /* CREDIT DERREN MMU */
 /*END OF CONTACT US*/
 
 /*CSS FOR ALL OF THE FOOD PAGES*/
@@ -673,7 +674,7 @@ justify-content: center;
 /* let's not have a grid at small screen sizes: just take care of the typography and white space */
 
 .grid-layout {
-    padding: 40px; } 
+    padding: 40px; }  /* CREDIT DERREN MMU */
 
 .grid-layout h3 {
     margin: 0;
@@ -719,33 +720,25 @@ justify-content: center;
 .ratings-and-more p {
     margin: 0;
     padding: 0;
-}
-/* OK, let's turn the grid on at our 700px breakpoint. You will probably need a different breakpoint. */
-/* see https://css-tricks.com/snippets/css/complete-guide-grid/ to figure out how to control the grid */
+} /* CREDIT DERREN MMU */
 
 @media screen and (min-width: 700px) {
     .grid-layout {
         display: grid;
         max-width: 1000px;
         margin: auto;
-        /* create a gap between grid columns and rows */
         grid-gap: 1rem;
-        /* 7 column grid */
         grid-template-columns: repeat(7, 1fr);
-        /* you can set grid-template-rows but a lot of the time the content does a good enough job */
-    }
-    /* h2 goes all the way across */
+    } /* CREDIT DERREN MMU */
     .grid-layout h1 {
         grid-row: 1/1;
         grid-column: 1/-1;
     }
-    /* fit our images into the grid */
     .grid-layout img {
         grid-row: 2/4;
         grid-column: 1/5;
         margin: 0;
         align-self: start;
-        /* 'pack' images together */
     }
     .grid-layout img+img {
         grid-row: 2/3;
@@ -755,7 +748,6 @@ justify-content: center;
         grid-row: 3/4;
         grid-column: 5/7;
     }
-    /* fit our content into the grid - in a different order to the original source code. Turn off any white space that we used for the mobile view that doesn't work here. */
     .grid-layout .text-content {
         grid-row: 4;
         grid-column: 1/4;
@@ -775,7 +767,7 @@ justify-content: center;
         padding-top: 0;
     }
 }
-/*CSS FOR ALL OF THE FOOD PAGES END*/
+/*CSS FOR ALL OF THE FOOD PAGES END  */
 
 
 
@@ -791,7 +783,7 @@ justify-content: center;
             align-items: center;
             justify-content: center;
         }
-    }
+    } /* CREDIT DERREN MMU */
 
 
     
@@ -842,7 +834,7 @@ td {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+} /* CREDIT DERREN MMU */
 
 
     
