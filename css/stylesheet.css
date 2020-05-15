@@ -38,6 +38,12 @@ li {
     font-family: 'Playfair Display', 'Arial', 'serif';
 }
 
+.table td {
+    font-family: 'Playfair Display', 'Arial', 'serif'; } 
+
+    .table th { 
+        font-family: 'Playfair Display', 'Arial', 'serif';
+    } 
 body {
     margin: 0;
 
