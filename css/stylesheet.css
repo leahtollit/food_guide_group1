@@ -508,7 +508,7 @@ select,
 textarea {
     width: 100%;
     /* Full width */
-    padding: 12px;
+    padding: 10px;
     /* Some padding */
     border: 1px solid #ccc;
     /* Gray border */
@@ -518,7 +518,7 @@ textarea {
     /* Make sure that padding and width stays in place */
     margin-top: 6px;
     /* Add a top margin */
-    margin-bottom: 16px;
+    margin-bottom: 15px;
     /* Bottom margin */
     resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
@@ -558,12 +558,13 @@ input[type=submit]:hover {
     }
 
 .content-column {
-padding: 40px;
+padding: 50px;
 }
 
 .content-column__content {
-max-width: 700px;
+max-width: 1000px;
 margin: 0 auto;
+font-size: 1.3rem;
 }
 
 .content-column table {
@@ -586,7 +587,7 @@ color: #ff9900 }
 
 .content-column th,
 td {
-padding: 0.6rem 0.3rem;
+padding: 0.5rem 0.4rem;
 }
 
 .content-column a:hover {
