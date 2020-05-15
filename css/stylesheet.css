@@ -116,7 +116,7 @@ li {
     .topnav {
         overflow: hidden;
         background-color:#020A7B;
-        position: relative; }
+        position: relative; } /* CREDIT DERREN MMU */
     
     .topnav img {
         width: 125px; } 
@@ -193,7 +193,7 @@ li {
         align-items: center;
         justify-content: center;
 
-    }
+    } /* CREDIT DERREN MMU */
     .big-header__content-index{
         text-align: center;
         color: white;
@@ -268,7 +268,7 @@ li {
         color: white;
         text-decoration: none;
         font-weight: bold;
-    }
+    } /* CREDIT DERREN MMU */
     /* TEXT IMAGE RIGHT CSS ENDS HERE!!!*/
     /*INDEX.HTML CSS ENDS HERE*/
     
@@ -364,7 +364,7 @@ li {
         text-decoration: none;
         /* cuts off extra content */
         transition: transform 0.2s ease;
-    }
+    }/* CREDIT DERREN MMU */ 
     
     .fc-card a:hover {
         transform: scale(1.1);
@@ -379,7 +379,7 @@ li {
         background-size: cover;
         position: relative;
         overflow: hidden;
-    }
+    }/* CREDIT DERREN MMU */
 
     .fc-card.style-2{
         background-color: white;
@@ -488,6 +488,8 @@ li {
 
 /* Style inputs with type="text", select elements and textareas */
 
+
+/* CREDIT DERREN MMU */
 input,
 textarea {
     font-family: 'Playfair Display', Arial, serif; 
@@ -545,7 +547,7 @@ input[type=submit]:hover {
         grid-row: 5;
         width: auto;
         height: 150px;
-        /* change this if you want to */
+        /* CREDIT DERREN MMU */
     }
 
 .content-column {
