@@ -488,6 +488,12 @@ li {
 
 /* Style inputs with type="text", select elements and textareas */
 
+input,
+textarea {
+    font-family: 'Playfair Display', Arial, serif; 
+
+}
+
 input[type=text],
 select,
 textarea {
