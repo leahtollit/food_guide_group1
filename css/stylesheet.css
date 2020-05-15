@@ -31,6 +31,8 @@ p {
     margin-right: auto;
 }
 
+p a:hover {
+    color: #ff9900; } 
 li {
     font-size: 1.5rem;
     font-family: 'Playfair Display', 'Arial', 'serif';
