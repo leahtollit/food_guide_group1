@@ -520,7 +520,7 @@ textarea {
     /* Add a top margin */
     margin-bottom: 15px;
     /* Bottom margin */
-    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical;/* Allow the user to vertically resize the textarea (not horizontally) */
 }
 /* Style the submit button with a specific background color etc */
 
